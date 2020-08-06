@@ -62,5 +62,5 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, device/meizu/sdm710-common/common.mk)
 
 #crDroid Specific
-#TARGET_HAS_FOD := true
-#EXTRA_FOD_ANIMATIONS := true
+TARGET_HAS_FOD := true
+EXTRA_FOD_ANIMATIONS := true
