@@ -64,3 +64,9 @@ $(call inherit-product, device/meizu/sdm710-common/common.mk)
 #crDroid Specific
 TARGET_HAS_FOD := true
 EXTRA_FOD_ANIMATIONS := true
+
+# Customize
+$(call inherit-product, vendor/Lawnchair/config.mk)
+$(call inherit-product, external/pingfang-fonts/fonts.mk)
+PRODUCT_PACKAGES += \
+    force-stop.sh
