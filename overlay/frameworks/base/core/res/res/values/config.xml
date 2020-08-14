@@ -22,4 +22,7 @@
      <!-- FOD Icon Dimming -->
     <bool name="config_targetUsesInKernelDimming">false</bool>
 
+     <!-- NTP Server -->
+    <string translatable="false" name="config_ntpServer">ntp.aliyun.com</string>
+
 </resources>

@@ -66,7 +66,10 @@ TARGET_HAS_FOD := true
 EXTRA_FOD_ANIMATIONS := true
 
 # Customize
-$(call inherit-product, vendor/Lawnchair/config.mk)
-$(call inherit-product, external/pingfang-fonts/fonts.mk)
 PRODUCT_PACKAGES += \
     force-stop.sh
+GAPPS_VARIANT := pico
+
+$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
+$(call inherit-product, vendor/Lawnchair/config.mk)
+$(call inherit-product, external/pingfang-fonts/fonts.mk)
