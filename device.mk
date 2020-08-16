@@ -72,4 +72,3 @@ GAPPS_VARIANT := pico
 
 $(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
 $(call inherit-product, vendor/Lawnchair/config.mk)
-$(call inherit-product, external/pingfang-fonts/fonts.mk)
