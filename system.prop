@@ -4,4 +4,5 @@ ro.qualcomm.cabl=0
 # Audio
 ro.config.media_vol_steps=33
 ro.config.vc_call_vol_steps=14
-
+ro.config.alarm_vol_steps=14
+ro.config.ring_vol_steps=14
